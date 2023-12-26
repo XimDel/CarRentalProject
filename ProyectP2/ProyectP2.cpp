@@ -5,6 +5,8 @@
 #include <string>
 #include <vector>
 #include <sstream>
+#include <cctype>
+
 
 using namespace std;
 
@@ -1249,17 +1251,22 @@ void sortSpaces(int category, int number)
         cout << "]\n";
     }
 }
+
+
 void totalIncome()
 {
     for (int j = 1; j < content[0].size(); j++)
     {
         std::string::size_type sz;
-        auxIncome = stoi(content[10][j], &sz);
+        auxIncome = stoi(content[9][j], &sz);
+
         income = income + auxIncome;
+        //std::cout << "content[9][" << j << "] = " << content[9][j] << std::endl; print whole income per car
     }
     cout << income;
     income = 0;
 }
+
 void incomeByCars()
 {
     showLimit = 1;

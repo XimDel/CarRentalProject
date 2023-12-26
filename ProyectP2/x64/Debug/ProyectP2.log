@@ -1,1 +1,3 @@
-﻿  ProyectP2.vcxproj -> C:\Users\ximde\source\repos\ProyectP2\x64\Debug\ProyectP2.exe
+﻿  ProyectP2.cpp
+C:\Users\ximde\source\repos\ProyectP2\ProyectP2\ProyectP2.cpp(1235,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  ProyectP2.vcxproj -> C:\Users\ximde\source\repos\ProyectP2\x64\Debug\ProyectP2.exe
