@@ -364,8 +364,7 @@ void rentalMenu()
 {
     do
     {
-        // 		system("clear");
-        cout << "RENT:" << endl << endl;
+        cout << "RENT" << endl << endl;
         cout << "1. Rent a car" << endl;
         cout << "2. Return a car" << endl;
         cout << "3. Rent history" << endl;
@@ -495,6 +494,7 @@ void rentalMenu()
         {
             cout << "Rent History" << endl;
             showStockHistory();
+            cout << endl;
             break;
         }
 
@@ -530,6 +530,7 @@ void incomeMenu()
         case 1:
         {
             incomeByCars();
+            cout << endl;
             break;
         }
         case 2:
@@ -1232,7 +1233,7 @@ void deleteCar()
 void sortSpaces(int category, int number)
 {
     printSpaces = content[category][number];
-    int spaces = 10 - printSpaces.length();
+    int spaces = 12 - printSpaces.length();
 
     if (category != content.size() - showLimit)
     {
